@@ -1,0 +1,14 @@
+.item {
+  background-color: #fff;
+  border: 2px solid rgb(3, 123, 175);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-right: 30px;
+  color: rgb(3, 123, 175);
+}
