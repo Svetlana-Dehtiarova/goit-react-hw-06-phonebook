@@ -1,6 +1,7 @@
 .item {
   background-color: #fff;
   border: 2px solid rgb(3, 123, 175);
+  box-shadow: 2px 3px 5px rgb(3, 123, 175);
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 5px;

@@ -4,6 +4,7 @@
 
 .labelFilter {
   color: rgb(3, 123, 123);
+  text-shadow: 1px 3px 3px rgb(3, 123, 175);
 }
 
 .filterInput {
@@ -11,4 +12,12 @@
   border-radius: 5px;
   border: 2px solid rgb(3, 123, 123);
   color: rgb(3, 123, 175);
+  box-shadow: 2px 3px 5px rgb(3, 123, 175);
+}
+
+.filterInput:hover,
+:focus {
+  box-shadow: 2px 3px 5px rgb(6, 66, 230);
+  border: 2px solid rgb(234, 240, 240);
+  outline: none;
 }

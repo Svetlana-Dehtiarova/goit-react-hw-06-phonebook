@@ -6,6 +6,7 @@
   padding: 20px;
   border-radius: 20px;
   border: 2px solid rgb(3, 123, 123);
+  box-shadow: 2px 3px 5px rgb(3, 123, 175);
 }
 
 label {
@@ -23,10 +24,25 @@ label:last-child {
   border-radius: 5px;
   border: 2px solid rgb(3, 123, 175);
   color: rgb(3, 123, 175);
+  box-shadow: 2px 3px 5px rgb(251, 253, 253);
+}
+.inputName:hover,
+:focus {
+  box-shadow: 2px 3px 5px rgb(6, 66, 230);
+  border: 2px solid rgb(234, 240, 240);
+  outline: none;
 }
 .inputNumber {
   margin-left: 10px;
   border-radius: 5px;
   border: 2px solid rgb(3, 123, 175);
   color: rgb(3, 123, 175);
+  box-shadow: 2px 3px 5px rgb(251, 253, 253);
+}
+
+.inputNumber:hover,
+:focus {
+  box-shadow: 2px 3px 5px rgb(6, 66, 230);
+  border: 2px solid rgb(234, 240, 240);
+  outline: none;
 }
