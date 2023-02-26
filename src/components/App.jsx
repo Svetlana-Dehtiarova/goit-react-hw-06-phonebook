@@ -4,9 +4,10 @@ import css from './App.module.css';
 import ContactList from './ContactList/ContactList';
 import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
+import { selectContacts } from 'selectors';
 
 export function App() {
-  const contacts = useSelector(state => state.contacts.items);
+  const contacts = useSelector(selectContacts);
   return (
     <div>
       <h1 className={css.phonBookTitle}>Phonebook</h1>
